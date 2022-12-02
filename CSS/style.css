@@ -1,0 +1,205 @@
+.levelz {
+  margin-bottom: 100px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://static.vecteezy.com/system/resources/previews/010/612/773/non_2x/arabic-alphabet-letters-learning-with-cute-objects-set-pack-vector.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax1 {
+  /* The image used */
+  background-image: url("https://outschool.com/_next/image?url=https%3A%2F%2Fprocess.filepicker.io%2FAPHE465sSbqvbOIStdwTyz%2Frotate%3Ddeg%3Aexif%2Fresize%3Dfit%3Acrop%2Cheight%3A372%2Cwidth%3A586%2Foutput%3Dquality%3A80%2Ccompress%3Atrue%2Cstrip%3Atrue%2Cformat%3Ajpg%2Fcache%3Dexpiry%3Amax%2Fhttps%3A%2F%2Fcdn.filestackcontent.com%2FW7FGKyZTkGlTuZw4CH2g&w=1200&q=75");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* * {box-sizing: border-box;} */
+
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  overflow: hidden;
+
+  padding: 20px 20px 0px 20px;
+  border-bottom: rgb(161, 161, 161) 2px solid;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  border: blue;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+  border: blue 1px solid;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+  border: green solid 1px;
+}
+
+.header-right {
+  float: right;
+}
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: none;
+}
+
+.containerm {
+  min-height: 30vh;
+  overflow: hidden;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  overflow: hidden;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  cursor: pointer;
+  margin: 0 15px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+  background-color: rgb(4, 176, 207);
+}
+
+.cato :after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+  transform: translate(-140%, -50%);
+  background-color: blue;
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: 0.8s;
+}
+
+.cato:hover:after {
+  transform: translate(-50%, -50%);
+}
+
+.cato:hover img {
+  transform: translate(-50%, -50%) scale(1.3) rotate(20deg);
+}
+
+cato {
+  position: absolute;
+  height: 110%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.8s;
+}
+
+i {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-2000px, -50%);
+  color: #fff;
+  transition: 0.8s;
+  transition-timing-function: ease-in;
+}
+
+.image:hover i {
+  transform: translate(-50%, -50%);
+  transition-timing-function: ease;
+}
+
+.col-md-4 {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.catolab {
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #04aa6d;
+  margin-left: 10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+  border-top: 10px;
+}
+
+.welcome {
+  margin: auto;
+  margin-top: 100px;
+  width: 60%;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.topwel {
+  color: blue;
+}
+
+#facon {
+  color: black;
+}
